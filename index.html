@@ -9,15 +9,23 @@
     <title>Contacts</title>
 <!-- added Bootstrap link so this will work-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <link rel="stylesheet" type="text/css" href="style.css">
+    <style>
+      img {
+        float:left;
+        margin: 5px;
+      }
+      p {
+        text-align: center;
+      }
+    </style>
 </head>
 <body>
     <!-- Navbar copied from getbootstrap -->
     <!-- static navbar -->
 
-  <div class="container" style="background-color: yellow;">
+<div class="container-fluid" style="background-color: lightblue;">
   
-    <div class="container">
+  <div class="container-fluid">
     <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Michael Jones</a>
@@ -27,7 +35,7 @@
         </div>  
           
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="nav justify-content-end">
+            <ul class="nav place-content-end">
                 <li class="nav-item">
                   <a class="nav-link active" href="contact.html">Contact</a>
                 </li>
@@ -42,3 +50,37 @@
         </div>
     </nav>
   </div>
+  <div class="container-fluid">
+
+    <div class="col-lg-6 border border-dark" style="background-color: white">
+      <div class="row">
+          <div class="col-6">
+            <h1>About Me</h1>
+          </div>
+      </div>
+          <hr>
+     
+        <div class="row">
+      
+          <div class="col-lg-8" style="text-align: center;">
+              <img src="http://placehold.it/250x250" align="left" text-align= "center" alt="Placeholder"/><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras varius cursus tristique. In eget venenatis est, ac ultrices odio. Morbi ac vehicula libero. Cras vulputate lorem magna, eget rhoncus lacus sodales non. Mauris ut pellentesque nisi, a mollis urna. Quisque eleifend lorem risus, quis venenatis nulla volutpat at. Donec accumsan tortor dignissim sem convallis, vel mattis urna eleifend. Donec hendrerit, metus bibendum scelerisque molestie, odio sem venenatis ipsum, in imperdiet magna est sit amet est. Phasellus elit velit, fringilla non tempor vel, elementum at massa.
+
+                Cras gravida a nunc sed hendrerit. Suspendisse convallis eleifend pellentesque.</p>   
+          </div>
+         
+         <div class="row">
+            <div class="col-lg-8">
+          <p>Curabitur pellentesque augue porttitor nisl molestie, et luctus nisi venenatis. Donec ornare quis mi ac molestie. Cras erat ligula, consectetur vel mi in, imperdiet interdum sapien. Suspendisse dictum purus posuere nisi semper, nec finibus dolor tincidunt. Etiam volutpat metus eget ante cursus, sed faucibus metus vestibulum. Curabitur fringilla a dui sit amet aliquam. Quisque eu leo ex. Praesent at suscipit quam, non posuere nulla. Nunc vulputate, tellus vitae dignissim porta, felis felis dapibus est, eu cursus purus sem placerat lacus. Donec quis iaculis quam.</p>
+        </div>
+      </div>
+    </div>
+  </div>  
+</div> 
+
+<hr>
+<div class="footer" text-align= "center">
+  <p>MTJ Production | Privacy | Terms</p>
+</div>
+</body>
+</html>
+
