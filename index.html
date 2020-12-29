@@ -9,41 +9,34 @@
     <title>About Me</title>
 <!-- added Bootstrap link so this will work-->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
-    <style>
-      img {
-        float:left;
-        margin: 5px;
-      }
-      p {
-        text-align: center;
-      }
-    </style>
+  
 </head>
 <body>
     <!-- Navbar copied from getbootstrap -->
     <!-- static navbar -->
 
-<div class="container-fluid" style="background-color: lightblue;">
+<div class="container-fluid" style="background-color: yellow;">
   
   <div class="container-fluid">
-    <nav class="navbar sticky-top navbar-expand-lg navbar-light" style="background-color: #e3f2fd">
+    <nav class="navbar sticky-top navbar-expand navbar-light" style="background-color: lightseagreen">
         <div class="container-fluid">
           <a class="navbar-brand border border-dark" style="background-color: lightgrey" href="#">Michael Jones</a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
         </div>  
-          
+        <!-- added pills to try - not my favorite -->
+
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="nav place-content-end">
               <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
+                <a class="btn btn-primary" href="index.html" role="button">About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                <a class="btn btn-danger" href="portfolio.html" role="button">Portfolio</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link active" href="index.html">About</a>
+                <a class="btn btn-secondary" href="contact.html" role="button">Contact</a>
               </li>
           </ul>
         </div>  
@@ -55,10 +48,12 @@
 
   <div class="container-fluid">
 
-    <div class="col-lg-8 border border-dark" style="background-color: white">
+    <div class="col-lg-6 border border-dark" style="background-color: white">
       <div class="row">
-          <div class="col-6">
+          <div class="col-12">
+            <div class="bs white text-center text-success">
             <h1>About Me</h1>
+            </div>
           </div>
       </div>
           <hr>
@@ -79,10 +74,12 @@
       </div>
     </div>  
   </div> 
-
+<!-- made color of footer same as navbar-->
 <hr>
-  <div class="footer" text-align= "center">
-  <p>MTJ Production | Privacy | Terms</p>
+<div class="footer">
+  <div class= "text-center" style="background-color: lightseagreen;">
+    <p>MTJ Production | Privacy | Terms</p>
+  </div>
 </div>
 </body>
 </html>
