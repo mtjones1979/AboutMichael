@@ -35,5 +35,7 @@
 <a href="">Link</a>
 
 <h2>Credits</h2>
-* Get Bootstrap
-* Tutor: Jennifer Kruk
+<ul>
+<li>Get Bootstrap</li>
+<li>Tutor: Jennifer Kruk</li>
+</ul>
