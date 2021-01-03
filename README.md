@@ -32,7 +32,7 @@
 * Must properly utilize Bootstrap components and grid system.
 
 <h2>Link</h2>
-<a href="">Link</a>
+<a href="https://mtjones1979.github.io/AboutMichael/">Link</a>
 
 <h2>Credits</h2>
 <ul>
