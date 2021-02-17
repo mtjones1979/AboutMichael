@@ -1,4 +1,4 @@
-<h1>About Michael</h1>
+<h1>Michael Jones Portfolio</h1>
 <br>
 
 <h2>Objective</h2>
