@@ -31,8 +31,11 @@
 
 * Must properly utilize Bootstrap components and grid system.
 
+<h2>Screenshot<h2>
+<img src="https://user-images.githubusercontent.com/74076318/108432249-aeed6e00-7209-11eb-882f-bd31a6056d47.png">
+<img src="https://user-images.githubusercontent.com/74076318/108432426-f07e1900-7209-11eb-8ce8-fca429fb397f.png">
 <h2>Link</h2>
-<a href="https://mtjones1979.github.io/AboutMichael/">Link</a>
+<a href="https://mtjones1979.github.io/Michael-Jones-Portfolio/">Link</a>
 
 <h2>Credits</h2>
 <ul>
